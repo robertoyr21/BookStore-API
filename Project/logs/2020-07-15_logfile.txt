@@ -1,0 +1,4 @@
+2020-07-15 20:51:05.9979 INFO Accessed Home Controller
+2020-07-15 20:51:24.2119 DEBUG Got a value
+2020-07-15 20:53:58.3567 ERROR This is an error
+2020-07-15 20:55:53.3688 WARN This is a warning
