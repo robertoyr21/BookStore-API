@@ -18,6 +18,8 @@ using System.IO;
 using System.Security.Policy;
 using BookStore_API.Contracts;
 using BookStore_API.Services;
+using AutoMapper;
+using BookStore_API.Mappings;
 
 namespace BookStore_API
 {
@@ -36,6 +38,8 @@ namespace BookStore_API
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(
                     Configuration.GetConnectionString("DefaultConnection")));
+            //services.AddDbContext<PostgreDbContext>(options =>
+            //    options.UseNpgsql(Configuration.GetConnectionString("PostgreConnection")));
             services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
 
@@ -44,6 +48,8 @@ namespace BookStore_API
                 .AllowAnyMethod()
                 .AllowAnyHeader());
             });
+
+            services.AddAutoMapper(typeof(Maps));
 
             // konfigurasi Swagger
             services.AddSwaggerGen(c => {
