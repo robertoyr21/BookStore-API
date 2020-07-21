@@ -1,0 +1,47 @@
+2020-07-21 11:40:01.5679 INFO Attempting Get All Authors
+2020-07-21 11:40:21.6800 ERROR Cannot open database "BookStore" requested by the login. The login failed.
+Login failed for user 'DESKTOP-QSD9M8P\TRANS7'. - 
+2020-07-21 11:44:19.6839 INFO Attempting Get All Authors
+2020-07-21 11:44:35.6974 ERROR A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified) - 
+2020-07-21 11:45:53.9708 INFO Attempting Get All Authors
+2020-07-21 11:46:09.8573 ERROR A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified) - 
+2020-07-21 11:49:50.7722 INFO Attempting Get All Authors
+2020-07-21 11:50:06.6263 ERROR A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified) - 
+2020-07-21 11:51:11.3365 INFO Attempting Get All Authors
+2020-07-21 11:51:27.2604 ERROR A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified) - 
+2020-07-21 11:53:42.5575 INFO Attempting Get All Authors
+2020-07-21 11:53:47.7639 ERROR Cannot open database "BookStore" requested by the login. The login failed.
+Login failed for user 'DESKTOP-QSD9M8P\TRANS7'. - 
+2020-07-21 11:56:25.5441 INFO Attempting Get All Authors
+2020-07-21 11:56:26.9606 ERROR Cannot open database "BookStore" requested by the login. The login failed.
+Login failed for user 'DESKTOP-QSD9M8P\TRANS7'. - 
+2020-07-21 12:00:15.0651 INFO Attempting Get All Authors
+2020-07-21 12:00:30.9401 ERROR A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 51 - An instance name was not specified while connecting to a Local Database Runtime. Specify an instance name in the format (localdb)\instance_name.) - System.ComponentModel.Win32Exception (87): The parameter is incorrect.
+2020-07-21 12:02:00.8136 INFO Attempting Get All Authors
+2020-07-21 12:02:02.4930 INFO Succesfully Got All Authors
+2020-07-21 13:59:49.4129 INFO Attempting to get Author with Id : 1
+2020-07-21 13:59:50.9686 WARN Author with Id : 1 was not found
+2020-07-21 14:53:11.1499 INFO Author submission attempted
+2020-07-21 14:53:11.4471 ERROR Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Object -> Author
+System.Object -> BookStore_API.Data.Author - 
+2020-07-21 14:56:58.9298 INFO Author submission attempted
+2020-07-21 14:57:00.6040 INFO Author created
+2020-07-21 14:58:33.9049 INFO Author submission attempted
+2020-07-21 14:58:33.9780 INFO Author created
+2020-07-21 16:54:44.3429 INFO Author update attempted
+2020-07-21 16:54:44.6166 ERROR Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Object -> Author
+System.Object -> BookStore_API.Data.Author - 
+2020-07-21 16:56:35.7619 INFO Author update attempted
+2020-07-21 16:56:38.3904 INFO Author updated
+2020-07-21 16:57:52.6758 INFO Attempting Get All Authors
+2020-07-21 16:57:53.2140 INFO Succesfully Got All Authors
+2020-07-21 17:42:29.9651 INFO Author with id : 2 delete attempted
+2020-07-21 17:42:31.7952 INFO Author with id : 2 successfully deleted
+2020-07-21 17:42:37.4798 INFO Attempting Get All Authors
+2020-07-21 17:42:37.5843 INFO Succesfully Got All Authors

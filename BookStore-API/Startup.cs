@@ -38,8 +38,6 @@ namespace BookStore_API
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(
                     Configuration.GetConnectionString("DefaultConnection")));
-            //services.AddDbContext<PostgreDbContext>(options =>
-            //    options.UseNpgsql(Configuration.GetConnectionString("PostgreConnection")));
             services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
 
@@ -66,6 +64,8 @@ namespace BookStore_API
             });
 
             services.AddSingleton<ILoggerService, LoggerService>();
+
+            services.AddScoped<IAuthorRepository, AuthorRepository>();
 
             services.AddControllers();
         }
