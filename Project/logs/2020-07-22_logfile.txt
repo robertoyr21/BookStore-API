@@ -1,0 +1,4 @@
+2020-07-22 14:05:36.0607 INFO Books - GetBooks: Attempted Call
+2020-07-22 14:05:40.1752 INFO Books - GetBooks: Successful
+2020-07-22 14:06:36.6281 INFO Books - GetBook: Attempted Call for Id : 1
+2020-07-22 14:06:37.0835 WARN Books - GetBook: Failed to retrieve for Id : 1
