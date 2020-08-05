@@ -1,0 +1,13 @@
+2020-08-03 11:25:10.2831 INFO Authors - GetAuthors: Attempted Call
+2020-08-03 11:25:11.0259 INFO Authors - GetAuthors: Successful
+2020-08-03 11:25:58.9598 INFO Authors - GetAuthor: Attempted Call for Id : 1
+2020-08-03 11:25:59.2108 INFO Authors - GetAuthor: Succesfully got record with Id : 1
+2020-08-03 11:29:35.5052 INFO Users - Login: Login Attempt from user customer1
+2020-08-03 11:29:36.4358 INFO Users - Login: customer1 Successfully Authenticated
+2020-08-03 11:33:20.6741 INFO Users - Login: Login Attempt from user admin
+2020-08-03 11:33:20.8803 INFO Users - Login: admin Successfully Authenticated
+2020-08-03 11:33:58.7658 INFO Authors - Create: Create attempted
+2020-08-03 11:33:59.8720 INFO Authors - Create: Creation was successful
+2020-08-03 11:33:59.9094 INFO Authors - Create: BookStore_API.Data.Author
+2020-08-03 11:34:13.9470 INFO Authors - GetAuthors: Attempted Call
+2020-08-03 11:34:13.9893 INFO Authors - GetAuthors: Successful
